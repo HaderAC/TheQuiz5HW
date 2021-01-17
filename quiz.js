@@ -1,5 +1,7 @@
 
-
+var timerDiv = document.getElementById("timer");
+var question = document.getElementById("question");
+var choices = Array.from(document.getElementsByClassName("choice-text"));
 
 
 var questions = [
