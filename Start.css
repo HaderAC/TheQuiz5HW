@@ -1,0 +1,40 @@
+.choice-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.5rem;
+    border: 0.1rem solid rgba(18, 243, 37, 0.938);
+    background-color: rgb(3, 3, 3);
+    font-family: 'Press Start 2P';
+
+}
+
+.choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: #010407;
+    color: #28a745;
+    font-family: 'Press Start 2P';
+    font-size: x-large;
+
+}
+
+.choice-text {
+    padding: 2.5rem;
+    width: 100%;
+    color: #28a745;
+    font-family: 'Press Start 2P';
+
+}
+
+.correct {
+    background-color: #f0db1d ;
+    color: #28a745;
+    font-family: 'Press Start 2P';
+
+}
+
+.incorrect{
+    font-family: 'Press Start 2P';
+    background-color: #c51717;
+    color: #28a745;
+}
