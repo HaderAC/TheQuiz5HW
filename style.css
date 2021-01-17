@@ -1,0 +1,160 @@
+:root {
+    background-color: #121213;
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P';
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+    h1,h2, h3, h4 {
+    margin-bottom: 1rem;
+    color: greenyellow;
+    font-family: 'Press Start 2P';                   
+
+}
+
+h1{
+    font-size: 5.4rem;
+    color: greenyellow;
+    margin-bottom: 5rem;
+    font-family: 'Press Start 2P';
+
+}
+
+h1 > span{
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: greenyellow;
+    font-family: 'Press Start 2P';
+
+}
+
+h2{
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+    color: greenyellow;
+    font-family: 'Press Start 2P';
+
+}
+
+h3{
+    font-size: 2.8rem;
+    font-weight: 500;
+    color: greenyellow;
+    font-family: 'Press Start 2P';
+
+}
+
+
+/* Utilities */
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    color: greenyellow;
+    font-family: 'Press Start 2P';
+
+}
+.container > * {
+    width: 100%;
+    color: greenyellow;
+    font-family: 'Press Start 2P';
+
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    color: greenyellow;
+    font-family: 'Press Start 2P';
+
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+    color: greenyellow;
+    font-family: 'Press Start 2P';
+
+}
+
+.justify-center{
+    justify-content: center;
+    color: greenyellow;
+    font-family: 'Press Start 2P';
+
+}
+
+.text-center{
+    text-align: center;
+    color: greenyellow;
+    font-family: 'Press Start 2P';
+
+}
+
+.hidden{
+    display: none;
+    color: greenyellow;
+    font-family: 'Press Start 2P';
+
+}
+
+
+/* Style Buttons */
+
+.btn {
+    font-size: 1.8rem;
+    padding: 2rem 0;
+    width: 20rem;
+    text-align: center;
+    border: 0.1rem solid #67e22e;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: greenyellow;
+    background-color: rgb(5, 4, 4);
+    font-family: 'Press Start 2P';
+
+}
+
+/* Forms Styling */
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: greenyellow;
+    font-family: 'Press Start 2P';
+
+
+}
+
+input{
+    margin-bottom: 1.5rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    color: black;
+    font-family: 'Press Start 2P';
+
+
+}
+
+.timerBtn{
+    font-family: 'Press Start 2P';
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    width: 5rem;
+    text-align: center;
+    border: 0.1rem solid #60f33b;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: greenyellow;
+    background-color: rgb(228, 25, 25);
+}
