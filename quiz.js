@@ -37,7 +37,7 @@ var questions = [
 ];
 
 // Contants and Timers
-const bonus = 10;
+const bonus = 100;
 const totalQuest = 3;
 const totalTime = 60;
 
