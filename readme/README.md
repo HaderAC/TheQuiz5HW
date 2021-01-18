@@ -14,4 +14,8 @@ IF ALL ANSWERS ARE CORRECT
 ​
 ​
 
+https://haderac.github.io/TheQuiz5HW/
+
+https://github.com/HaderAC/TheQuiz5HW
+
 
