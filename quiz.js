@@ -19,7 +19,7 @@ var questions = [
         answer: 1,
     },
     {
-        question: "what sympol do you first need to create a new element using Jquery?",
+        question: "what symbol do you first need to create a new element using Jquery?",
         choice1: "^",
         choice2: "*",
         choice3: "@",
@@ -94,7 +94,7 @@ var newQuestion = () => {
 var endQuiz = () => {
     clearInterval(timerHandle);
     sessionStorage.setItem("mostRecentScore", score);
-    window.location.assign("endgame.html");
+    window.location.assign("endGame.html");
 };
 
 choices.forEach((choice) => {
